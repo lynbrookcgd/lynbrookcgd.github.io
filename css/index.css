@@ -311,11 +311,11 @@ main {
 #slide-4 .bcg {background-image:url('../img/slide4.jpg')}
 #slide-4 .hsContent {
     top:0;
-    left:25%
+    left:1%
 }
 	#slide-4 .description {
 		color: white;
-		background-color:  rgba(0,0,0,0.7);
+		background-color:  rgba(0,0,0,0.6);
         font-size:20px; 
         margin-top:120px;
         display: inline-block;
@@ -328,6 +328,10 @@ main {
     font-weight: lighter;
     margin-top: 30px;
     font-size: 50px;
+}
+#slide-4 .unitypic {
+    float:right;
+    margin-top:100px;
 }
 
 #slide-5 .bcg {background-image:url('../img/gameover.png')}
