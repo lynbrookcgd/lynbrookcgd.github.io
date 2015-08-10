@@ -1,8 +1,7 @@
 <?php
 
 	// sha1() encrypted password
-	// the default is "test"
-	$password = 'a94a8fe5ccb19ba61c4c0873d391e987982fbbd3';
+	$password = '0cd74ae0c893a159ae1590606f861e28117c59c5';
 	
 	// Start session
 	session_start();
