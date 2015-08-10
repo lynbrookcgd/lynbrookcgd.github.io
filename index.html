@@ -7,9 +7,34 @@
    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all"/>
    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Raleway:300|Hind:300' rel='stylesheet' type='text/css'>
    <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="js/typed.js"></script>
 <body>
   <div class ="header">
-    <h1>Creative Game Design</h1>
+    <img src="images/logo.png" height="15%" width="15%">
+    <ul>
+      <li href="#">Home</li>
+      <li href="#">About us</li>
+      <li href="#">Team</li>
+      <li href="#">Updates</li>
+      <li href="#">Sign up</li>
+    </ul>
+  </div>
+  <div class ="intro" id="section">  
+    <div class = "content">
+      <h1>Welcome to Creative Game Design</h1>
+      <p>We're going to teach you to use game engines</p>
+      <div class = "button">
+        <a href="#">Sign up</a>
+      </div>
+    </div>
   </div>
 </body>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["First sentence.", "Second sentence."],
+            typeSpeed: 0
+        });
+    });
+</script>
 </html>
