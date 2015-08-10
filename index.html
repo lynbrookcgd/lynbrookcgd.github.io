@@ -24,7 +24,7 @@
       <h1>Welcome to Creative Game Design</h1>
       <p>We're going to teach you to use game engines</p>
       <div class = "button">
-        <a href="#">Sign up</a>
+        <a class="element" href="#">Sign up</a>
       </div>
     </div>
   </div>
@@ -32,8 +32,10 @@
 <script>
     $(function(){
         $(".element").typed({
-            strings: ["First sentence.", "Second sentence."],
-            typeSpeed: 0
+            strings: ["Sign up", "Join CGD", "Learn Code", "Become a Game Developer", "Learn to use Game Engines", "Be cool"],
+            typeSpeed: 0,
+            backDelay: 3000,
+            loop:true
         });
     });
 </script>
