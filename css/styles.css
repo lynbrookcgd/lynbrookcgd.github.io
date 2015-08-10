@@ -6,5 +6,12 @@ body {
 
 .header {
   background-color: black;
+  margin:0px;
+  padding: 0px;
+}
 
+.header h1 {
+	color:white;
+	text-align: center;
+	margin:0px;
 }
