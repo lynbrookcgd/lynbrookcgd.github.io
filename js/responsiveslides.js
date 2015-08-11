@@ -7,6 +7,8 @@
  */
 
 /*jslint browser: true, sloppy: true, vars: true, plusplus: true, indent: 2 */
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
 
 (function ($, window, i) {
   $.fn.responsiveSlides = function (options) {
@@ -89,7 +91,7 @@
             }
           }
           return false;
-        })(),
+        }()),
 
         // Fading animation
         slideTo = function (idx) {
@@ -388,4 +390,4 @@
     });
 
   };
-})(jQuery, this, 0);
+}(jQuery, this, 0));
