@@ -89,25 +89,13 @@ margin: 0px;
 	text-align: center;
 	padding:40px;
 }
-
-#container {
-    width:100%;
-    text-align:center;
+.what img {
+	display: block;
+	float: left;
+	margin-right: 30px;
 }
 
-#left {
-    float:left;
-    width:100px;
-}
-
-#center {
-    display: inline-block;
-    margin:0 auto;
-    width:100px;
-}
-
-#right {
-    float:right;
-    width:100px;
+.what .images {
+	padding-top:30px;
 }
 
