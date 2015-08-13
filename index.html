@@ -5,6 +5,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all"/>
+   <link href="css/hover.css" rel="stylesheet">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Raleway:300|Hind:300' rel='stylesheet' type='text/css'>
    <!--kushnote- jquery plugins here-->
    <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -24,7 +26,7 @@
 
       <ul>
 
-        <li><a data-scroll href="intro1" class = "current">Home</a></li>
+        <li><a data-scroll href="#intro1">Home</a></li>
         <li><a data-scroll href="#section1">About us</a></li>
         <li><a href="#">Team</a></li>
         <li><a href="#">Updates</a></li>
@@ -52,6 +54,7 @@
       <li><img src="images/backslide2.png" alt=""></li>
       <li><img src="images/backslide3.png.jpg" alt=""></li>
     </ul> -->
+   <a href="#" class="hvr-icon-grow"></a>
   </div>
 
 
@@ -69,15 +72,13 @@
 <script>
     $(function(){
         $(".element").typed({
-            strings: ["Sign up", "Join CGD", "Develop Games", "Learn Game Engines", "Experience VR", "Make Something Great"],
+            strings: ["Sign up", "Join CGD", "Develop Games", "Use Game Engines", "Experience VR", "Make Something Great"],
             typeSpeed: 0,
             backDelay: 900,
             showCursor:false,
             loop:true
         });
     });
-</script>
-    <script>
     
 smoothScroll.init({
         speed: 1000, // Integer. How fast to complete the scroll in milliseconds
@@ -86,5 +87,6 @@ smoothScroll.init({
     offset: 79, // Integer. How far to offset the scrolling anchor location in pixels
     callbackBefore: function ( toggle, anchor ) {}, // Function to run before scrolling
     callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
-  });</script>
+  });
+</script>
 </html>

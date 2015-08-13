@@ -156,7 +156,7 @@ li {
 .button {
 	margin-top: 100px;
 }
-.intro a {
+.intro .element {
   line-height: 55px;
   color: #ffffff;
   text-decoration: none;
@@ -166,10 +166,11 @@ li {
   font-size:25px;
 }
 
-.intro a:hover {
+.intro .element:hover {
 	background-color: white;
 	color:#2C3E50;
 }
+
 /** what section i love u **/
 
 .what h1 {
