@@ -11,17 +11,33 @@
    <script type="text/javascript" src="js/typed.js"></script>
    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
 <body>
-  <div class ="header">
-    <img src="images/fixedcgdlogo.png" height="15%" width="15%">
-    <ul>
-      <li href="#">Home</li>
-      <li href="#">About us</li>
-      <li href="#">Team</li>
-      <li href="#">Updates</li>
-      <li href="#">Sign up</li>
-    </ul>
-  </div>
-  <div class ="intro" id="section">  
+
+  <header>
+
+    <a href="#" id="logo"></a>
+
+    <nav>
+
+      <a href="#" id="menu-icon"></a>
+
+      <ul>
+
+        <li><a href="#" class="current">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Sign Up</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+
+
+  <div class ="intro">  
     <div class = "content">
       <h1>Welcome to Creative Game Design</h1>
       <p>We're going to teach you to innovate in a way you've never seen</p>
@@ -35,6 +51,8 @@
       <li><img src="images/backslide3.png.jpg" alt=""></li>
     </ul> -->
   </div>
+
+
   <div class="what" id ="section">
     <h1>What you're going to learn</h1>
     <hr width="35%">
@@ -49,7 +67,7 @@
 <script>
     $(function(){
         $(".element").typed({
-            strings: ["Sign up", "Join CGD", "Become a Game Developer", "Learn to use Game Engines", "Experience Virtual Reality", "Make Something Great"],
+            strings: ["Sign up", "Join CGD", "Develop Games", "Learn Game Engines", "Experience VR", "Make Something Great"],
             typeSpeed: 0,
             backDelay: 900,
             showCursor:false,

@@ -353,7 +353,7 @@
             if (settings.pager || settings.manualControls) {
               selectTab($(this)[0] === $prev[0] ? prevIdx : nextIdx);
             }
-
+ 
             if (!settings.pauseControls) {
               restartCycle();
             }
