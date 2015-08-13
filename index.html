@@ -9,6 +9,7 @@
    <!--kushnote- jquery plugins here-->
    <script type="text/javascript" src="js/jquery.min.js"></script>
    <script type="text/javascript" src="js/typed.js"></script>
+   <script src="js/smooth-scroll.js"></script>
    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
    </head>
 <body>
@@ -24,7 +25,7 @@
       <ul>
 
         <li><a href="#" class="current">Home</a></li>
-        <li><a href="#">About us</a></li>
+        <li><a data-scroll href="#section">About us</a></li>
         <li><a href="#">Team</a></li>
         <li><a href="#">Updates</a></li>
         <li><a href="#">Sign Up</a></li>
@@ -76,4 +77,14 @@
         });
     });
 </script>
+    <script>
+    
+smoothScroll.init({
+        speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+    easing: 'easeOutQuad', // Easing pattern to use
+    updateURL: false, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+    offset: 79, // Integer. How far to offset the scrolling anchor location in pixels
+    callbackBefore: function ( toggle, anchor ) {}, // Function to run before scrolling
+    callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
+  });</script>
 </html>
