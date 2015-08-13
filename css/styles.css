@@ -148,13 +148,15 @@ li {
 	background-color: #2C3E50;
 	color:white;
 	text-align: center;
-	height: 550px;
+	height: 580px;
 }
 .intro h1 {
 	padding-top: 50px;
 }
 .button {
 	margin-top: 100px;
+  text-align: center;
+  padding-right: 25px;
 }
 .intro .element {
   line-height: 55px;
@@ -170,7 +172,9 @@ li {
 	background-color: white;
 	color:#2C3E50;
 }
-
+.hvr-icon-grow {
+  padding-top:200px;
+}
 /** what section i love u **/
 
 .what h1 {
@@ -228,6 +232,10 @@ li {
 
     display: block;
 
+  }
+
+  .hvr-icon-grow {
+    padding-top:150px;
   }
   /**header media queries end here pls dont mess with ty*/
 

@@ -3649,6 +3649,7 @@
 .hvr-icon-grow {
   display: inline-block;
   vertical-align: middle;
+  font-size:60px;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
