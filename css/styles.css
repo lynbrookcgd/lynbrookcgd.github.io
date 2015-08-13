@@ -85,10 +85,10 @@ header {
 }
 
 #logo{
-
-  margin: 20px;
+  top:18px;
+  position:absolute;
   float: left;
-  width: 200px;
+  width: 125px;
   height: 40px;
   background: url(../images/fixedcgdlogo.png) no-repeat center;
   display: block;
