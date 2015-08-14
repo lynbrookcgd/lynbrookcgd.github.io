@@ -181,6 +181,9 @@ li {
 	text-align: center;
 	padding:40px;
 }
+.what h3 {
+  display: inline;
+}
 
 
 /** kushnote media queries start here pls <3*/
