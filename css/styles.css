@@ -185,6 +185,14 @@ li {
   display: inline;
 }
 
+.team {
+  background-color: black;
+  color:white;
+}
+
+.team h1 {
+  text-align: center;
+}
 
 /** kushnote media queries start here pls <3*/
 @media only screen and (max-width : 640px) {
