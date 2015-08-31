@@ -211,12 +211,14 @@ li {
 /**team section i love VAISHNAV*/
 
 .team {
-  background-color: black;
+  background-color: #116644;
   color:white;
 }
 
 .team h1 {
+  padding-top:30px;
   text-align: center;
+
 }
 
 /** kushnote media queries start here pls <3*/
