@@ -177,13 +177,38 @@ li {
 }
 /** what section i love u **/
 
+.what {
+  text-align: center;  
+}
+
 .what h1 {
-	text-align: center;
-	padding:40px;
+  padding:40px;
 }
-.what h3 {
-  display: inline;
+
+#textimg {
+    padding:0;
+    margin:0;
+    width:49%;
+    vertical-align:top;
 }
+
+
+.desctext {
+  margin-top:80px;
+  line-height: 30px;
+  font-size: 20px;
+    width:49%;
+    min-width:350px;
+    display:inline-block;
+    padding:10px;
+    box-sizing:border-box;
+    color:black;
+}
+
+
+
+
+/**team section i love VAISHNAV*/
 
 .team {
   background-color: black;
@@ -248,32 +273,6 @@ li {
   .hvr-icon-grow {
     padding-top:150px;
   }
+}
   /**header media queries end here pls dont mess with ty*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 
