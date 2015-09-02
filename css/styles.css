@@ -53,21 +53,21 @@ a {
 }
 
 .header h1 {
-	color:white;
-	text-align: left;
-	margin:0px;
-	padding-left:30px;
+  color:white;
+  text-align: left;
+  margin:0px;
+  padding-left:30px;
 }
 .header ul {
-	float:right;
-	margin:2%;
-	padding:0px;
-  	list-style-type: none; 
+  float:right;
+  margin:2%;
+  padding:0px;
+    list-style-type: none; 
 }
 
 .header li {
-	display: inline;
-	padding:20px;
+  display: inline;
+  padding:20px;
 }
 */
 /**header section**/
@@ -145,16 +145,16 @@ li {
   margin: 80px auto 0px;
   position: relative;
   padding: 20px;
-	background-color: #2C3E50;
-	color:white;
-	text-align: center;
-	height: 580px;
+  background-color: #2C3E50;
+  color:white;
+  text-align: center;
+  height: 580px;
 }
 .intro h1 {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 .button {
-	margin-top: 100px;
+  margin-top: 100px;
   text-align: center;
   padding-right: 25px;
 }
@@ -169,8 +169,8 @@ li {
 }
 
 .intro .element:hover {
-	background-color: white;
-	color:#2C3E50;
+  background-color: white;
+  color:#2C3E50;
 }
 .hvr-icon-grow {
   padding-top:200px;
