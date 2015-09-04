@@ -3664,7 +3664,7 @@
 .hvr-icon-grow:before {
   content: "\f107";
   position: absolute;
-  right: 1.2em;
+  right: 1.0em;
   padding: 0 1px;
   font-family: FontAwesome;
   -webkit-transform: translateZ(0);
