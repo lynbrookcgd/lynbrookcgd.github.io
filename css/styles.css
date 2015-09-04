@@ -205,31 +205,83 @@ li {
     color:black;
 }
 
-
-.meetings h1 {
-  text-align: center;
-  margin: 30px;
-  font-size: 55px;
-}
-
 /**team section i love VAISHNAV*/
 
 .team {
-  background-color: #116644;
+  background-color: #0C5237;
   color:white;
 }
 
 .team h1 {
   padding-top:30px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   text-align: center;
 }
-.team h2 {
-  display: inline;
-  padding-left: 40px;
-  margin-top: -40px;
+.team .imgholder {
+ display: inline-block;
+ padding-bottom:30px;
+ padding-left: 110px;
 }
-.team img 
+.team .imgholder h2{
+  text-align: center;
+}
+
+
+/**MEETING SECTION */
+
+.meetings {
+  background-color: white;
+  color:black;
+  text-align: center;
+}
+
+.meetings h1 {
+  padding-top:40px;
+  padding-bottom: 20px;
+
+}
+
+
+.meetings h2 {
+  margin:0;
+  padding:50px;
+}
+
+.meetings h3 {
+  padding-bottom: 30px;
+}
+
+.meetings a {
+  color:#18A74D;
+}
+
+/**signup*/
+.sign {
+  background-color: #295279;
+  margin:0;
+  padding:0;
+  height:200px;
+}
+
+.button2 {
+  padding-top:100px;
+  text-align: center;
+}
+.sign a{
+  line-height: 55px;
+  color: #ffffff;
+  text-decoration: none;
+  padding:20px 40px 20px 40px;
+  border: white solid 2px;
+  font-size:25px;
+}
+
+.sign a:hover{
+  background-color: white;
+  color:#2C3E50;
+}
+
+
 /** kushnote media queries start here pls <3*/
 @media only screen and (max-width : 640px) {
 
@@ -283,6 +335,11 @@ li {
 
   .hvr-icon-grow {
     padding-top:150px;
+  }
+
+  .team .imgholder {
+    display: inline-block;
+    text-align: center;
   }
 }
   /**header media queries end here pls dont mess with ty*/
