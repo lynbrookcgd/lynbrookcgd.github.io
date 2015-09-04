@@ -217,10 +217,15 @@ li {
 
 .team h1 {
   padding-top:30px;
+  padding-bottom: 50px;
   text-align: center;
-
 }
-
+.team h2 {
+  display: inline;
+  padding-left: 40px;
+  margin-top: -40px;
+}
+.team img 
 /** kushnote media queries start here pls <3*/
 @media only screen and (max-width : 640px) {
 
