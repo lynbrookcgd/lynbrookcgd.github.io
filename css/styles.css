@@ -206,7 +206,11 @@ li {
 }
 
 
-
+.meetings h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 55px;
+}
 
 /**team section i love VAISHNAV*/
 
