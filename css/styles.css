@@ -156,7 +156,7 @@ li {
 .button {
   margin-top: 100px;
   text-align: center;
-  padding-right: 25px;
+  padding-right: 17px;
 }
 .intro .element {
   line-height: 55px;
@@ -340,6 +340,12 @@ li {
   .team .imgholder {
     display: inline-block;
     text-align: center;
+  }
+
+  .button {
+  margin-top: 100px;
+  text-align: center;
+  padding-right: 0px;
   }
 }
   /**header media queries end here pls dont mess with ty*/
