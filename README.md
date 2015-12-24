@@ -1,2 +1,2 @@
 #Lynbrook Creative Game Design
-This is the repo for our club, in case you guys want to get files directly :)
+This is the repo for our club website — you can get the files directly from here :)
